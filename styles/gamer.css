@@ -201,6 +201,23 @@
     .span-play{
         color: #F948B2;
     }
+    /* icon related styles */
+    .icon-container{
+        display: flex;
+       justify-content: space-around;
+       margin-top: 100px;
+    }
+    .icon-1,.icon-2, .icon-3{
+        border: 2px solid 
+        border-radius: 5px;
+        display: flex;
+        gap: 10px;
+        
+    }
+    .icon-container:hover{
+        background-color: #4EC5F7;
+        
+    }
 
     
 
