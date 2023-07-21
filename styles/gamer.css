@@ -72,12 +72,12 @@
     max-width: 1920px;
     margin: 0 auto;
 }
-.banner-section div{
+/* .banner-section div{
     width: 50%;
 }
 .banner-section .banner-heading .banner-image{
     width: 100%;
-}
+} */
 
 .banner-section .banner-heading h3 {
     color: #0B0223;
@@ -107,9 +107,7 @@
 }
 
 .banner-section .banner-heading .btn-primary {
-    /* display: inline-flex; */
     padding: 21px 40px;
-    /* align-items: flex-start; */
     gap: 10px;
     border-radius: 48px;
     background-color: #FF42A5;
@@ -119,26 +117,54 @@
 }
 
 .banner-section .banner-heading .btn-secondery {
-    display: inline-flex;
     padding: 21px 40px;
-    align-items: flex-start;
     gap: 10px;
     border-radius: 48px;
     background: #4EC5F7;
     color: white;
     
+
+
+    
 }
+
 @media screen and (max-width: 576px) {
 
   .nav-container{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .nav-container .title-nav{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   } 
   .banner-section{
     display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
+
+   
+  }
+  .banner-section > .banner-heading > .btn-continer{
+    display: flex;
+    gap: 10px;
+    }
+    
+    .banner-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-image{
+        height: 50%;
+    }
+
+
 }
